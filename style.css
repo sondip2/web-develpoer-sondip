@@ -97,6 +97,10 @@ main{
 
 
 /* main styles */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 .section-title{
     font-size: 35px;
@@ -113,7 +117,7 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+   
 }
 .about-items{
     display: flex;
@@ -123,8 +127,24 @@ main{
     font-size: 20px;
 }
 
+/* shared style */
+.text-align{
+    text-align: center;
+}
+
 
 .desk{
     font-weight: bold;
     font-size: 17px;
+}
+
+/* skill container */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px black;
 }
